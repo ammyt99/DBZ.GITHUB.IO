@@ -1,0 +1,272 @@
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Document</title>
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+                
+                <style>
+                    @import url("ayush.jpg");
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                text-decoration: none;
+            }
+
+            /*navbar*/
+            /* navbar*/
+            .navbar{
+                position:fixed;
+                width: 100%;
+                padding: 15px 0;
+            /*  background-color: rgb(0, 0, 0);*/
+                font-family: 'ubuntu',sans-serif;
+            }
+            .navbar .max-width{
+                
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+            }
+            #tut {
+                font-weight: 500;
+                position: relative;
+                right: 410%;
+
+            }
+            #tut1 {
+                position: relative;
+                font-weight: 500;
+                right: 280%;
+
+            }
+            #tut2 {
+                position: relative;
+                right: 270%;
+                font-weight: 500;
+            }
+            #tut6{
+                position: relative;
+                font-weight: 500;
+                left:  190%;
+            }
+            #tut3 {
+                font-weight: 500;
+                position: relative;
+                right: 40%;
+
+            }
+            #tut4 {
+                font-weight: 500;
+                position: relative;
+                right: 20%;
+
+            }
+            #tut5 {
+                font-weight: 500;
+                position: relative;
+                right: 10%;
+
+            }
+            .navbar .logo a{
+                color: #fff;
+                font-size: none;
+                font-weight: 900 ;
+            }
+            .navbar .logo a span{
+                color: crimson;
+            }
+            .navbar .menu li{
+                list-style: none;
+                display: inline-block;
+            }
+            .navbar .menu li a{
+                color: rgb(0, 0, 0);
+                font-size: 30px;
+                font-weight: 900;
+                margin-left: 25px ;
+                transition: colar 0.3s easa;
+                position: relative;
+                right: 60%;
+                bottom: 100%;
+            }
+            .navbar .menu li a:hover{
+                color: rgb(71, 19, 243);
+            }/*navbar end*/
+
+            .box1{
+                background-color: rgb(0, 255, 0);
+                color: #fff;
+                width: 150px;
+                height: 30px;
+                text-align: center;
+                position:absolute;
+                bottom: 90%;
+                left: 38%;
+
+            }
+            #index{
+                display: grid;
+                height: 80px;
+                width: 250px;
+                background:  linear-gradient(#a3a2a2,#1d1c1d62);
+                position:absolute;
+                margin: auto;
+                left: 1%;
+                right: 0;
+                top: 30%;
+            bottom: 0;
+            place-items: center;
+            font-family:'Times New Roman', Times, serif;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-weight: 500;
+            text-decoration: none;
+            letter-spacing: 3px;
+            border-radius: 50px;
+            }
+
+
+            .box1{
+                background-color: rgb(0, 255, 0);
+                color: #fff;
+                width: 150px;
+                height: 30px;
+                text-align: center;
+                position:absolute;
+                bottom: 90%;
+                left: 38%;
+
+            }
+            .box{
+                border: rgba(138, 138, 138, 0) solid 15px;
+                width: 500px;
+                height: 500px;
+                position: relative;
+                top: 10%;
+                left: 25%;
+            }
+            body{
+                background-color: black;
+            }
+            section{
+                position: relative;
+                width: 100%;
+                height: 100vh;
+                transform-style: preserve-3d;
+                perspective: 500px;
+            }
+            section h2{
+                position: relative;
+                width: 500px;
+                height: 168px;
+                text-align:center;
+                line-height: 9vh;
+                font-size: 8vw;
+                color: #000;
+                font-weight: 700;
+                top: 20%;
+                left:26%;
+            }
+            .banner{
+                position:absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .banner .books{
+                position: relative;
+                display: block;
+                width: 5vw;
+                height: 5vh;
+                background-color: #fff;
+                animation:animte 2s ease-in-out forwards;
+                animation-Delay:1s ;
+            }
+            @keyframes animte {  
+                0%{
+                    transform: translatez(2000px);
+                    background:url("guko2.png");
+                    background-position: center;
+                    background-attachment:fixed;
+                    background-size: cover;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+                    
+                }
+                100%{
+                    transform: translatey(0px);
+                    background:url("guko2.png");
+                    background-position: center;
+                    background-attachment:fixed;
+                    background-size: cover;
+                    border: 1px solid rgba(0, 0, 0, 0.1);
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+                }
+            }
+
+
+            .home{
+                display: flex;
+                background:url("dbz.png") no-repeat center ;
+                height: 100vh;
+                color: #fff;
+                min-height: 500px;
+                font-family:'ubuntu',sans-serif ;
+            }
+
+
+
+
+
+
+
+
+                </style>
+            </head>
+            <body>
+                <section>
+                    <div class="banner">
+                        <div class="books"></div>
+                    </div>
+                <nav class="navbar">
+                    <div class="max-width">
+                        <div class="logo"><a href="#"><img id="tut6" src="dbz1.png" alt="" width="300px" height="100px"><span></span></a></div>
+                        <ul  class="menu">
+                            <li><a id="tut" href="s.html">HOME</a></li>
+                            <li><a id="tut1" href="FIDHTERS.html">FIHTERS</a></li>
+                            <li><a id="tut2" href="#">RATE US</a></li>
+                            <li><a id="tut3" href="#">BATTLE</a></li>
+                            <li><a id="tut4" href="#">ABOUT GAME</a></li>
+                            <li><a id="tut5" href="#">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container"></div>
+            </section>
+
+                
+                <a id="index" href="start.html">START</a>
+            <script>
+            audio = new Audio('ss2.mp3');
+            setTimeout(() => {
+                audio.play()
+            }, 1000);
+                const banner =document.getElementsByClassName('banner')[0];
+                const books =document.getElementsByClassName('books');
+                for (let i = 0; i < 400; i++) {
+                banner.innerHTML += "<div class='books'></div>";
+                const duration=Math.random()*5;
+                    books[i].style.animationDuration = 2+duration +'s';
+                    books[i].style.animationDelay = 2+duration +'s';
+
+                }
+            </script>
+            </html>
